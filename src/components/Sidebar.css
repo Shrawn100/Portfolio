@@ -1,0 +1,90 @@
+.sidebar-container {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.sidebar-filler {
+  height: 100vh;
+}
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  min-width: 320px;
+  display: flex;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  gap: 60px;
+  justify-content: flex-start;
+}
+
+.sidebar-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-heading {
+  font-family: "MyFont", sans-serif;
+  font-weight: none;
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.sidebar-heading:hover {
+  color: rgb(5, 143, 223);
+}
+.close-sidebar {
+  display: flex;
+  font-size: 23px;
+  max-height: 40px;
+  border: none;
+  font-weight: 900;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+.sidebar-btns-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sidebar-btns {
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: start;
+}
+
+/* Animation */
+
+.sidebar {
+  animation: 1s slide-left;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}

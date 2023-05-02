@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/RobotoSlab-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+.hamburger:hover {
+  color: rgb(5, 143, 223);
+  font-weight: bold;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.navbar-heading {
+  font-family: "MyFont", sans-serif;
+  font-weight: none;
+
+  color: black;
+}
+.navbar-heading:hover {
+  color: rgb(5, 143, 223);
+}
+.navbar-heading-link {
+  text-decoration: none;
+}
+.navbar-btns-container {
+  display: flex;
+  gap: 15px;
+}
+.navbar-btns {
+  cursor: pointer;
+
+  font-size: larger;
+  border: none;
+  background: none;
+}
+button:hover {
+  color: rgb(0, 162, 255);
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+  .navbar-btns-container {
+    display: none;
+  }
+}

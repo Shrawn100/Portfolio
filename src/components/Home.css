@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/RobotoSlab-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home {
+  overflow: hidden;
+}
+
+.home-container {
+  display: flex;
+  min-height: 92vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.home-img {
+  width: 500px;
+  height: auto;
+}
+
+.home-container > div,
+.home-img {
+  margin-bottom: 100px;
+  font-family: "MyFont", sans-serif;
+  font-size: 25px;
+}
+
+.home-desc > span {
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+}
+.get-to-know-btn {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(0, 162, 255);
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.get-to-know-btn:hover {
+  font-weight: bold;
+  color: rgb(212, 212, 212);
+}
+
+@media (max-width: 1000px) {
+  .home-img {
+    width: 450px;
+    height: auto;
+  }
+  .home-container > div,
+  .home-img {
+    font-size: 22px;
+  }
+}
+@media (max-width: 850px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+    justify-content: flex-start;
+  }
+  .home-img {
+    margin: 0;
+    padding: 0;
+  }
+  .home-container > div {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    order: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-img {
+    width: 350px;
+    height: auto;
+  }
+  .home-container > div {
+    font-size: 20px;
+    order: 1;
+  }
+}
+
+/* animation */
+
+.home-heading {
+  animation: 1.5s fade-in ease-in;
+}
+
+.home-desc {
+  animation: 1.5s fade-in ease-in;
+}
+.get-to-know-btn {
+  animation: 2.5s fade-in ease-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
