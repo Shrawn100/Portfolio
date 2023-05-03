@@ -4,10 +4,12 @@ import "./App.css";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About></About>} />

@@ -1,10 +1,8 @@
-import Navbar from "./Navbar";
 import icon from "../imgs/character-icon.png";
 import "./About.css";
 export default function About() {
   return (
     <div>
-      <Navbar></Navbar>
       <div className="about-container">
         <img className="character-icon" src={icon} alt="charactor img"></img>
         <h1 className="about-heading">
