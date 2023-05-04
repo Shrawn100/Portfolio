@@ -48,17 +48,17 @@
 }
 .close-sidebar {
   display: flex;
-  font-size: 23px;
-  max-height: 40px;
-  border: none;
-  font-weight: 900;
-  padding: 10px;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  font-size: 23px;
+  max-height: 40px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
   color: black;
   cursor: pointer;
-  background-color: rgb(243, 243, 243);
+  background-color: white;
 }
 .sidebar-btns-container {
   display: flex;

@@ -1,14 +1,11 @@
-import icon from "../imgs/character-icon.png";
 import "./About.css";
 export default function About() {
   return (
-    <div>
+    <div className="about">
       <div className="about-container">
-        <img className="character-icon" src={icon} alt="charactor img"></img>
         <h1 className="about-heading">
-          Hello!
-          <br />
-          I'm <span>Shrawn Chhetri</span>
+          Hello I'm
+          <br /> <span>Shrawn Chhetri</span>
         </h1>
         <div className="about-paragraph">
           <p>
@@ -31,14 +28,15 @@ export default function About() {
             In my free time, I stay active by training for powerlifting and now
             recently boxing. I also enjoy reading books on a wide range of
             topics. I believe in maintaining a healthy work-life balance to keep
-            my mind sharp and creative.{" "}
+            my mind sharp and creative.
           </p>
           <p>
             I'm excited to contribute my skills and expertise to your web
             development projects and bring your ideas to life!
           </p>
         </div>
-        <div className="skills-tools">
+
+        <div className="skills-tools ">
           <h2 className="skills-tools-heading">
             Skills <span>& Tools</span>
           </h2>

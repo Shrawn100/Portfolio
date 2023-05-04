@@ -7,6 +7,7 @@
 .projects-heading {
   margin-top: 50px;
   font-family: "MyFont", sans-serif;
+  border-bottom: 2px solid rgb(5, 143, 223);
 }
 .projects-heading > span {
   color: rgb(5, 143, 223);
