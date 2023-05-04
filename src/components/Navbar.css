@@ -46,7 +46,7 @@
   background: none;
 }
 button:hover {
-  color: rgb(0, 162, 255);
+  color: rgb(5, 143, 223);
   font-weight: 700;
 }
 
@@ -59,6 +59,6 @@ button:hover {
   }
 }
 .hovered {
-  color: rgb(0, 162, 255);
+  color: rgb(5, 143, 223);
   font-weight: 700;
 }
