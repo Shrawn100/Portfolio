@@ -47,16 +47,18 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   max-width: 1000px;
-  padding: 10px 30px 30px 30px;
   gap: 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 .skills-tools {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   max-width: 900px;
+
+  padding-top: 50px;
 }
 
 .skills-tools-heading {
