@@ -6,7 +6,7 @@ export default function Sidebar({ handleClick }) {
       <div className="sidebar-filler"></div>
       <aside className="sidebar">
         <div className="sidebar-heading-container">
-          <Link className="navbar-heading-link" to="/Portfolio/">
+          <Link className="navbar-heading-link" to="">
             <button onClick={handleClick} className="sidebar-heading">
               Shrawn Chhetri
             </button>
@@ -17,17 +17,17 @@ export default function Sidebar({ handleClick }) {
         </div>
 
         <div className="sidebar-btns-container">
-          <Link className="sidebar-link" to="/Portfolio/About">
+          <Link className="sidebar-link" to="About">
             <button onClick={handleClick} className="navbar-btns sidebar-btns">
               About Me
             </button>
           </Link>
-          <Link to="/Portfolio/Projects">
+          <Link to="/Projects">
             <button onClick={handleClick} className="navbar-btns sidebar-btns">
               Projects
             </button>
           </Link>
-          <Link to="/Portfolio/Contact">
+          <Link to="/Contact">
             <button onClick={handleClick} className="navbar-btns sidebar-btns">
               Contact
             </button>
