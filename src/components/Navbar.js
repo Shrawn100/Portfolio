@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <nav className="navbar-container">
       {isVisible ? <Sidebar handleClick={handleVisible}></Sidebar> : ""}
-      <Link className="navbar-heading-link" to="/">
+      <Link className="navbar-heading-link" to="/Portfolio/">
         <h1
           onClick={handleHomeClick}
           className={home ? "navbar-heading hovered" : "navbar-heading"}
@@ -51,7 +51,7 @@ export default function Navbar() {
         &#9776;
       </button>
       <div className="navbar-btns-container">
-        <Link to="/About">
+        <Link to="/Portfolio/About">
           <button
             onClick={handleAboutClick}
             className={about ? "navbar-btns hovered" : "navbar-btns"}
@@ -59,7 +59,7 @@ export default function Navbar() {
             About Me
           </button>
         </Link>
-        <Link to="/Projects">
+        <Link to="/Portfolio/Projects">
           <button
             onClick={handleProjectsClick}
             className={projects ? "navbar-btns hovered" : "navbar-btns"}
@@ -67,7 +67,7 @@ export default function Navbar() {
             Projects
           </button>
         </Link>
-        <Link to="/Contact">
+        <Link to="/Portfolio/Contact">
           <button
             onClick={handleContactClick}
             className={contact ? "navbar-btns hovered" : "navbar-btns"}
