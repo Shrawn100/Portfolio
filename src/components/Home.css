@@ -16,7 +16,14 @@
   align-items: center;
   gap: 50px;
 }
-
+.home-container > div {
+}
+.home-heading {
+  text-align: center;
+}
+.home-desc {
+  text-align: center;
+}
 .home-img {
   width: 500px;
   height: auto;
@@ -52,7 +59,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .home-img {
     width: 450px;
     height: auto;
@@ -60,6 +67,15 @@
   .home-container > div,
   .home-img {
     font-size: 22px;
+  }
+  .home-heading {
+    font-size: 42px;
+    text-align: center;
+  }
+}
+@media (max-width: 920px) {
+  .home-heading {
+    font-size: 35px;
   }
 }
 @media (max-width: 850px) {
@@ -83,6 +99,9 @@
     margin-bottom: 0;
 
     order: 1;
+  }
+  .home-heading {
+    font-size: 50px;
   }
 }
 
