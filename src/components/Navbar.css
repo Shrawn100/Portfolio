@@ -13,8 +13,7 @@
   font-size: 20px;
 }
 .hamburger:hover {
-  color: rgb(5, 143, 223);
-  font-weight: bold;
+  transform: scale(0.99);
 }
 .navbar-container {
   display: flex;
