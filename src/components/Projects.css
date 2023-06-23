@@ -5,6 +5,7 @@
   width: 100%;
 }
 .projects-heading {
+  padding-top: 60px;
   margin-top: 50px;
   font-family: "MyFont", sans-serif;
   border-bottom: 2px solid rgb(5, 143, 223);

@@ -8,7 +8,8 @@
   display: none;
   cursor: pointer;
   border: none;
-  background-color: rgb(213, 222, 240);
+  background-color: rgb(5, 143, 223);
+  color: white;
   font-size: 20px;
 }
 .hamburger:hover {
@@ -16,7 +17,6 @@
   font-weight: bold;
 }
 .navbar-container {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,17 +44,15 @@
 .navbar-heading {
   font-size: 25px;
 }
+.navbar-heading:hover {
+  transform: scale(0.99);
+}
 
 .navbar-btns {
   cursor: pointer;
-
   font-size: larger;
   border: none;
   background: none;
-}
-button:hover {
-  color: rgb(5, 143, 223);
-  text-decoration: underline;
 }
 
 @media (max-width: 600px) {

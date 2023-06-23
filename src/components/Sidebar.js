@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Sidebar.css";
 export default function Sidebar({ handleClick }) {
   return (
@@ -6,32 +5,39 @@ export default function Sidebar({ handleClick }) {
       <div className="sidebar-filler"></div>
       <aside className="sidebar">
         <div className="sidebar-heading-container">
-          <Link className="navbar-heading-link" to="">
-            <button onClick={handleClick} className="sidebar-heading">
-              Shrawn Chhetri
-            </button>
-          </Link>
+          <a
+            href="#home-section"
+            onClick={handleClick}
+            className="sidebar-heading"
+          >
+            Shrawn C
+          </a>
           <button onClick={handleClick} className="close-sidebar">
             X
           </button>
         </div>
-
-        <div className="sidebar-btns-container">
-          <Link className="sidebar-link" to="About">
-            <button onClick={handleClick} className="navbar-btns sidebar-btns">
-              About Me
-            </button>
-          </Link>
-          <Link to="/Projects">
-            <button onClick={handleClick} className="navbar-btns sidebar-btns">
-              Projects
-            </button>
-          </Link>
-          <Link to="/Contact">
-            <button onClick={handleClick} className="navbar-btns sidebar-btns">
-              Contact
-            </button>
-          </Link>
+        <div className="sidebar-links-container">
+          <a
+            href="#about-section"
+            onClick={handleClick}
+            className="navbar-btns sidebar-btns"
+          >
+            About Me
+          </a>
+          <a
+            href="#projects-section"
+            onClick={handleClick}
+            className="navbar-btns sidebar-btns"
+          >
+            Projects
+          </a>
+          <a
+            href="#contacts-section"
+            onClick={handleClick}
+            className="navbar-btns sidebar-btns"
+          >
+            Contact
+          </a>
         </div>
       </aside>
     </div>

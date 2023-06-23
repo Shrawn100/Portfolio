@@ -9,6 +9,7 @@
 }
 
 .contact-heading {
+  padding-top: 60px;
   font-family: "MyFont", sans-serif;
   text-align: center;
   border-bottom: 2px solid rgb(5, 143, 223);
