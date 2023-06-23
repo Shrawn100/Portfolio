@@ -4,7 +4,7 @@ import { mdiEmail, mdiPhone } from "@mdi/js";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div id="contact-section" className="contact">
       <h1 className="contact-heading">
         Contact<span>Me</span>
       </h1>

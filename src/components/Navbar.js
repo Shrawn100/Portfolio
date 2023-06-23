@@ -1,80 +1,37 @@
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+
 import Sidebar from "./Sidebar";
 import { useState } from "react";
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(false);
-  const [home, setHome] = useState(true);
 
-  const [about, setAbout] = useState(false);
-  const [projects, setProjects] = useState(false);
-  const [contact, setContact] = useState(false);
   function handleVisible() {
     setIsVisible(!isVisible);
   }
-  function handleHomeClick() {
-    setHome(true);
-    setAbout(false);
-    setProjects(false);
-    setContact(false);
-  }
-  function handleAboutClick() {
-    setHome(false);
-    setAbout(true);
-    setProjects(false);
-    setContact(false);
-  }
-  function handleProjectsClick() {
-    setHome(false);
-    setAbout(false);
-    setProjects(true);
-    setContact(false);
-  }
-  function handleContactClick() {
-    setHome(false);
-    setAbout(false);
-    setProjects(false);
-    setContact(true);
-  }
+
   return (
     <nav className="navbar-container">
       {isVisible ? <Sidebar handleClick={handleVisible}></Sidebar> : ""}
-      <Link className="navbar-heading-link" to="/">
-        <h1
-          onClick={handleHomeClick}
-          className={home ? "navbar-heading hovered" : "navbar-heading"}
-        >
-          S.C
-        </h1>
-      </Link>
+
+      <a className="navbar-heading navbar-link" href="#home-section">
+        S.C
+      </a>
+
       <button onClick={handleVisible} className="hamburger">
         &#9776;
       </button>
       <div className="navbar-btns-container">
-        <Link to="/About">
-          <button
-            onClick={handleAboutClick}
-            className={about ? "navbar-btns hovered" : "navbar-btns"}
-          >
-            About Me
-          </button>
-        </Link>
-        <Link to="/Projects">
-          <button
-            onClick={handleProjectsClick}
-            className={projects ? "navbar-btns hovered" : "navbar-btns"}
-          >
-            Projects
-          </button>
-        </Link>
-        <Link to="/Contact">
-          <button
-            onClick={handleContactClick}
-            className={contact ? "navbar-btns hovered" : "navbar-btns"}
-          >
-            Contact
-          </button>
-        </Link>
+        <a className="navbar-link" href="#about-section">
+          About Me
+        </a>
+
+        <a className="navbar-link" href="#projects-section">
+          Projects
+        </a>
+
+        <a className="navbar-link" href="#contact-section">
+          Contact
+        </a>
       </div>
     </nav>
   );

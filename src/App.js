@@ -10,12 +10,10 @@ function App() {
   return (
     <BrowserRouter basename="/Portfolio">
       <Navbar></Navbar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About></About>} />
-        <Route path="/Projects" element={<Projects></Projects>} />
-        <Route path="/Contact" element={<Contact></Contact>} />
-      </Routes>
+      <Home></Home>
+      <About></About>
+      <Projects></Projects>
+      <Contact></Contact>
     </BrowserRouter>
   );
 }

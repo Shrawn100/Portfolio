@@ -1,7 +1,7 @@
 import "./Projects.css";
 export default function Projects() {
   return (
-    <div className="projects">
+    <div id="projects-section" className="projects">
       <h1 className="projects-heading">
         My <span>Projects</span>
       </h1>

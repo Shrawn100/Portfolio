@@ -8,7 +8,7 @@
   display: none;
   cursor: pointer;
   border: none;
-  background-color: white;
+  background-color: rgb(213, 222, 240);
   font-size: 20px;
 }
 .hamburger:hover {
@@ -16,28 +16,35 @@
   font-weight: bold;
 }
 .navbar-container {
+  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-}
-.navbar-heading {
-  font-family: "MyFont", sans-serif;
-  font-weight: none;
-
-  color: black;
-}
-.navbar-heading:hover {
-  color: rgb(5, 143, 223);
-}
-.navbar-heading-link {
-  text-decoration: none;
+  padding: 20px;
+  background-color: rgb(5, 143, 223);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
 }
 .navbar-btns-container {
   display: flex;
   gap: 15px;
 }
+.navbar-link {
+  font-family: "MyFont", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navbar-link:hover {
+  text-decoration: underline;
+  transform: scale(0.98);
+}
+.navbar-heading {
+  font-size: 25px;
+}
+
 .navbar-btns {
   cursor: pointer;
 
@@ -47,7 +54,7 @@
 }
 button:hover {
   color: rgb(5, 143, 223);
-  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
