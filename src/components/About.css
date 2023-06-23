@@ -46,21 +46,19 @@
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
   max-width: 1000px;
   gap: 30px;
   padding: 10px 30px 30px 30px;
 }
 
 .skills-tools {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
-
   max-width: 900px;
-  border: 1px solid red;
-
-  padding: 50px 50px 100px 50px;
+  padding: 100px 50px 50px 50px;
 }
 
 .skills-tools-heading {
@@ -72,8 +70,15 @@
   color: rgb(5, 143, 223);
 }
 
+.skill-stack-title {
+  font-family: "MyFont", sans-serif;
+  padding: 10px;
+}
 .skills-img-container {
   text-align: center;
   font-weight: 600;
   font-family: "MyFont";
+}
+.skills-img-container > img {
+  max-width: 120px;
 }

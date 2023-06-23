@@ -9,30 +9,17 @@ export default function About() {
         </h1>
         <div className="about-paragraph">
           <p>
-            A self-taught web developer with a passion for creating visually
-            appealing and responsive websites.
+            A self-taught web developer that strives to always learn something
+            new in order push the boundaries of my knowledge.
           </p>
           <p>
-            As a developer, I am continuously drawn to the ever-evolving field
-            of technology because of the limitless potential it presents. My
-            passion for innovation drives me to seek out fresh challenges and
-            opportunities for personal and professional growth.
+            I am continuously drawn to the ever-evolving field of technology to
+            seek fresh challenges and opportunities.
           </p>
           <p>
-            Producing high-quality and scalable web applications is my utmost
-            priority, whether I am working independently or as part of a team. I
-            aim to create applications that effectively fulfill the requirements
-            of end-users and businesses.
-          </p>
-          <p>
-            In my free time, I stay active by training for powerlifting and now
-            recently boxing. I also enjoy reading books on a wide range of
-            topics. I believe in maintaining a healthy work-life balance to keep
-            my mind sharp and creative.
-          </p>
-          <p>
-            I'm excited to contribute my skills and expertise to your web
-            development projects and bring your ideas to life!
+            Producing high-quality web applications is my passion. Whether I am
+            working independently or as part of a team, I aim to create
+            applications that make smooth and satisfying user experiences.
           </p>
         </div>
 
@@ -40,6 +27,7 @@ export default function About() {
           <h2 className="skills-tools-heading">
             Skills <span>& Tools</span>
           </h2>
+          <h3 className="skill-stack-title">Front-end</h3>
           <div className="skills-container">
             <div className="skills-img-container">
               <img
@@ -62,13 +50,36 @@ export default function About() {
               />
               JavaScript
             </div>
-
             <div className="skills-img-container">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 alt="react logo"
               />
               React
+            </div>
+          </div>
+          <h3 className="skill-stack-title">Back-end</h3>
+          <div className="skills-container">
+            <div className="skills-img-container">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="nodeJS logo"
+              />
+              NodeJS
+            </div>
+            <div className="skills-img-container">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                alt="mongo DB logo"
+              />
+              MongoDB
+            </div>
+            <div className="skills-img-container">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                alt="express logo"
+              />
+              Express
             </div>
             <div className="skills-img-container">
               <img
@@ -77,33 +88,15 @@ export default function About() {
               />
               Firebase
             </div>
-            <div className="skills-img-container">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-                alt="webpack logo"
-              />
-              Webpack
-            </div>
-            <div className="skills-img-container">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-                alt="jest logo"
-              />
-              Jest
-            </div>
+          </div>
+          <h3 className="skill-stack-title">Tools</h3>
+          <div className="skills-container">
             <div className="skills-img-container">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                 alt="git logo"
               />
               Git
-            </div>
-            <div className="skills-img-container">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                alt="nodeJS logo"
-              />
-              NodeJS
             </div>
             <div className="skills-img-container">
               <img
@@ -121,10 +114,17 @@ export default function About() {
             </div>
             <div className="skills-img-container">
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                alt="mongo DB logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+                alt="jest logo"
               />
-              MongoDB
+              Jest
+            </div>
+            <div className="skills-img-container">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+                alt="webpack logo"
+              />
+              Webpack
             </div>
           </div>
         </div>
