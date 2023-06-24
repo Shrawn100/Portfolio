@@ -1,0 +1,107 @@
+.project-info-title {
+  text-align: center;
+  font-family: "MyFont", sans-serif;
+}
+
+.project-links-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  padding: 20px 80px 40px 80px;
+}
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 5px;
+  height: 220px;
+  border-top: 1px solid rgb(5, 143, 223);
+}
+.project-link > h2 {
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+}
+.project-link > a {
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+}
+.project-about-paragraph {
+  border-top: 1px solid rgb(5, 143, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "MyFont";
+  font-size: 19px;
+  font-weight: 100;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 300px 60px 300px;
+}
+.project-info-subheading {
+  font-size: 25px;
+  margin: 0;
+  align-self: flex-start;
+}
+.project-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 100px;
+}
+.project-img-container > img {
+  width: 100%;
+}
+.project-img-title {
+  text-align: center;
+  font-family: "MyFont", sans-serif;
+}
+span {
+  color: rgb(5, 143, 223);
+}
+@media (max-width: 1500px) {
+  .project-img-container {
+    padding: 50px;
+    gap: 25px;
+  }
+  .project-about-paragraph {
+    padding: 20px 200px 60px 200px;
+  }
+}
+@media (max-width: 1100px) {
+  .project-img-container {
+    grid-template-columns: 1fr;
+  }
+  .project-about-paragraph {
+    padding: 20px 100px 60px 100px;
+  }
+  .project-link > h2 {
+    font-family: "MyFont", sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+  .project-link > a {
+    font-family: "MyFont", sans-serif;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-about-paragraph {
+    padding: 20px 30px 60px 30px;
+  }
+
+  .project-links-container {
+    box-sizing: border-box;
+    display: flex;
+
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 20px 60px 20px;
+  }
+}

@@ -35,7 +35,7 @@ export default function Projects() {
             <h2 className="card-title">
               Vintage<span>Shop</span>
             </h2>
-            <Link to="/blog" className="project-links">
+            <Link to="/shop" className="project-links">
               Learn more
             </Link>
             <div className="card-techstack">MongoDB Express Pug/Jade CSS</div>
@@ -54,7 +54,7 @@ export default function Projects() {
               {" "}
               Members<span>Only</span>
             </h2>
-            <Link to="/blog" className="project-links">
+            <Link to="/member" className="project-links">
               Learn more
             </Link>
             <div className="card-techstack">MongoDB Express Pug/Jade CSS </div>
