@@ -1,4 +1,4 @@
-function BlogInfo() {
+function ShopInfo() {
   return <div></div>;
 }
-export default BlogInfo;
+export default ShopInfo;
