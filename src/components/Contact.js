@@ -13,7 +13,7 @@ export default function Contact() {
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
-        <p>You can find me at:</p>
+        <p>You can contact me at:</p>
         <div className="contact-btn-container">
           <button className="contact-btn">
             <Icon className="contact-icon" path={mdiEmail} size={2} />
@@ -24,8 +24,9 @@ export default function Contact() {
             0469293649
           </button>
           <div>
-            <i className="devicon-linkedin-plain contact-btn"></i>
-            <i className="devicon-github-original contact-btn"></i>
+            <a href="https://github.com/Shrawn100">
+              <i className="devicon-github-original contact-btn"></i>
+            </a>
           </div>
         </div>
       </div>

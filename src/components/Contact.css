@@ -23,21 +23,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3);
-  padding: 10px 30px 30px 30px;
-}
-.contact-container:hover {
-  transform: scale(0.99);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgb(5, 143, 223);
+  border-top: 1px solid rgb(5, 143, 223);
+  padding: 30px 30px 30px 30px;
 }
 .contact-container > p {
-  padding: 10px 30px 30px 30px;
+  padding: 10px 30px 10px 30px;
   text-align: center;
   font-size: 28px;
   max-width: 900px;
   font-family: "MyFont", sans-serif;
-
-  margin-top: 20px;
 }
 .contact-container > div {
   display: flex;
@@ -64,8 +59,13 @@
   justify-content: center;
 }
 .contact-btn:hover {
-  color: rgb(5, 143, 223);
-  background-color: white;
+  cursor: default;
+}
+.contact-btn-container > div > a {
+  text-decoration: none;
+}
+.devicon-github-original:hover {
+  cursor: pointer;
 }
 
 .contact-btn-container > div {
