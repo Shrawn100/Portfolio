@@ -1,4 +1,8 @@
 import "./Projects.css";
+import bloghub from "../imgs/blog.png";
+import vintage from "../imgs/vintage.png";
+import members from "../imgs/members.png";
+import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <div id="projects-section" className="projects">
@@ -8,17 +12,14 @@ export default function Projects() {
 
       <div className="projects-container">
         <div className="projects-card">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react logo"
-          />
+          <img src={bloghub} alt="Beach" />
           <div className="card-info">
             <h2 className="card-title">
               Blog<span>API</span>
             </h2>
-            <div className="project-links">
-              <a href="url">Learn more</a>
-            </div>
+            <Link to="/blog" className="project-links">
+              Learn more
+            </Link>
             <div className="card-techstack">
               MongoDB Express React Nodejs CSS
             </div>
@@ -34,9 +35,9 @@ export default function Projects() {
             <h2 className="card-title">
               Vintage<span>Shop</span>
             </h2>
-            <div className="project-links">
-              <a href="url">Learn more</a>
-            </div>
+            <Link to="/blog" className="project-links">
+              Learn more
+            </Link>
             <div className="card-techstack">MongoDB Express Pug/Jade CSS</div>
             <p className="card-desc">
               A visually appealing online store that utilises a mongoDB database
@@ -44,24 +45,18 @@ export default function Projects() {
               principle.
             </p>
           </div>
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react logo"
-          />
+          <img src={vintage} alt="people modelling" />
         </div>
         <div className="projects-card">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react logo"
-          />
+          <img src={members} alt="message board" />
           <div className="card-info odd">
             <h2 className="card-title">
               {" "}
               Members<span>Only</span>
             </h2>
-            <div className="project-links">
-              <a href="url">Learn more</a>
-            </div>
+            <Link to="/blog" className="project-links">
+              Learn more
+            </Link>
             <div className="card-techstack">MongoDB Express Pug/Jade CSS </div>
             <p className="card-desc">
               A message board application that utilises the passport middleware

@@ -27,17 +27,13 @@
   display: flex;
   align-items: center;
   gap: 30px;
-
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3);
-}
-.projects-card:hover {
-  transform: scale(0.99);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(5, 143, 223, 0.8);
+  border-bottom: 1px solid rgba(5, 143, 223, 0.8);
 }
 
 .projects-card > img {
-  max-width: 300px;
-  height: auto;
+  width: 100%;
+  max-width: 350px;
 }
 .card-info {
   display: flex;
@@ -45,19 +41,17 @@
   align-items: center;
   font-family: "MyFont", sans-serif;
 }
+
 .project-links {
-  margin-bottom: 20px;
-}
-.project-links > a {
-  border: 1px solid red;
   font-size: 20px;
   text-decoration: none;
+  color: black;
   border: 2px solid rgb(5, 143, 223);
   padding: 10px;
-  color: black;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
-.project-links > a:hover {
+.project-links:hover {
   color: rgb(5, 143, 223);
   font-weight: bold;
 }
