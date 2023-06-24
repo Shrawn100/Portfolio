@@ -14,34 +14,34 @@ export default function Projects() {
           />
           <div className="card-info">
             <h2 className="card-title">
-              Insta<span>Clone</span>
+              Blog<span>API</span>
             </h2>
             <div className="project-links">
-              <a href="url">View Demo</a>
-              <a href="url">View Code</a>
+              <a href="url">Learn more</a>
             </div>
-            <div className="card-techstack">HTML CSS JS React Firebase</div>
+            <div className="card-techstack">
+              MongoDB Express React Nodejs CSS
+            </div>
             <p className="card-desc">
-              An Instagram clone created using primarily React and Firebase.This
-              application contains Google Authentication and CRUD Features
-              allowing you to interact with other users in real-time.
+              A 3 part blog project (Serverside code, User view, Author view)
+              that utilises RESTful API design structure, responsive design and
+              allows CRUD operations.
             </p>
           </div>
         </div>
         <div className="projects-card">
           <div className="card-info odd">
             <h2 className="card-title">
-              Online<span>Shop</span>
+              Vintage<span>Shop</span>
             </h2>
             <div className="project-links">
-              <a href="url">View Demo</a>
-              <a href="url">View Code</a>
+              <a href="url">Learn more</a>
             </div>
-            <div className="card-techstack">HTML CSS JS React </div>
+            <div className="card-techstack">MongoDB Express Pug/Jade CSS</div>
             <p className="card-desc">
-              An Instagram clone created using primarily React and Firebase.This
-              application contains Google Authentication and CRUD Features
-              allowing you to interact with other users in real-time.
+              A visually appealing online store that utilises a mongoDB database
+              and has working search and sort filters. It follows the MVC design
+              principle.
             </p>
           </div>
           <img
@@ -57,59 +57,16 @@ export default function Projects() {
           <div className="card-info odd">
             <h2 className="card-title">
               {" "}
-              Find<span>Us</span>
+              Members<span>Only</span>
             </h2>
             <div className="project-links">
-              <a href="url">View Demo</a>
-              <a href="url">View Code</a>
+              <a href="url">Learn more</a>
             </div>
-            <div className="card-techstack">HTML CSS JS React Firebase</div>
+            <div className="card-techstack">MongoDB Express Pug/Jade CSS </div>
             <p className="card-desc">
-              An Instagram clone created using primarily React and Firebase.This
-              application contains Google Authentication and CRUD Features
-              allowing you to interact with other users in real-time.
-            </p>
-          </div>
-        </div>
-        <div className="projects-card">
-          <div className="card-info odd">
-            <h2 className="card-title">
-              Memory<span>Card</span>
-            </h2>
-            <div className="project-links">
-              <a href="url">View Demo</a>
-              <a href="url">View Code</a>
-            </div>
-            <div className="card-techstack">HTML CSS JS React</div>
-            <p className="card-desc">
-              An Instagram clone created using primarily React and Firebase.This
-              application contains Google Authentication and CRUD Features
-              allowing you to interact with other users in real-time.
-            </p>
-          </div>
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react logo"
-          />
-        </div>
-        <div className="projects-card">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react logo"
-          />
-          <div className="card-info">
-            <h2 className="card-title">
-              Battle<span>Ships</span>
-            </h2>
-            <div className="project-links">
-              <a href="url">View Demo</a>
-              <a href="url">View Code</a>
-            </div>
-            <div className="card-techstack">HTML CSS JS React Jest</div>
-            <p className="card-desc">
-              An Instagram clone created using primarily React and Firebase.This
-              application contains Google Authentication and CRUD Features
-              allowing you to interact with other users in real-time.
+              A message board application that utilises the passport middleware
+              to authenticate users. Displays dynamic content depending on
+              log-in status and provides password encryption for added security.
             </p>
           </div>
         </div>
