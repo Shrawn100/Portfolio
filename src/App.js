@@ -4,10 +4,12 @@ import BlogInfo from "./components/BlogInfo";
 import ShopInfo from "./components/ShopInfo";
 import MemberInfo from "./components/MemberInfo";
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter basename="/Portfolio">
+      <ScrollToTop></ScrollToTop>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogInfo />} />
