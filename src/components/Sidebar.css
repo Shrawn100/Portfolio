@@ -8,6 +8,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  z-index: 2;
 }
 .sidebar-filler {
   height: 100vh;
