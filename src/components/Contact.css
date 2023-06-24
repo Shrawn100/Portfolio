@@ -1,8 +1,9 @@
 .contact {
-  width: 100%;
   display: flex;
   flex-direction: column;
-
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   min-height: 75vh;
@@ -20,6 +21,8 @@
 }
 .contact-container {
   display: flex;
+  box-sizing: border-box;
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
