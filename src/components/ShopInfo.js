@@ -1,4 +1,10 @@
+import PNavBar from "./ProjectsNavBar";
+
 function ShopInfo() {
-  return <div></div>;
+  return (
+    <>
+      <PNavBar />
+    </>
+  );
 }
 export default ShopInfo;

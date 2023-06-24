@@ -1,10 +1,11 @@
 import PNavBar from "./ProjectsNavBar";
 
-function BlogInfo() {
+function MemberInfo() {
   return (
     <>
-      <PNavBar></PNavBar>
+      <PNavBar />
     </>
   );
 }
-export default BlogInfo;
+
+export default MemberInfo;
