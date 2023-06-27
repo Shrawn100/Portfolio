@@ -57,6 +57,13 @@ export default function About() {
               />
               React
             </div>
+            <div className="skills-img-container">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="typescript logo"
+              />
+              TypeScript
+            </div>
           </div>
           <h3 className="skill-stack-title">Back-end</h3>
           <div className="skills-container">
