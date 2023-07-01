@@ -4,7 +4,7 @@ export default function About() {
     <div id="about-section" className="about">
       <div className="about-container">
         <h1 className="about-heading">
-          Hello I'm
+          I'm
           <br /> <span>Shrawn Chhetri</span>
         </h1>
         <div className="about-paragraph">

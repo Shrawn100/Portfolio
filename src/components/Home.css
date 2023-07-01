@@ -14,15 +14,21 @@
   min-height: 92vh;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
-.home-container > div {
-}
+
 .home-heading {
   text-align: center;
+  font-family: "Carter One";
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 0;
 }
 .home-desc {
   text-align: center;
+  font-family: "Carter One";
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 0;
 }
 .home-img {
   width: 500px;
@@ -64,18 +70,18 @@
     width: 450px;
     height: auto;
   }
-  .home-container > div,
-  .home-img {
-    font-size: 22px;
-  }
+
   .home-heading {
-    font-size: 42px;
+    font-size: 50px;
     text-align: center;
   }
 }
 @media (max-width: 920px) {
   .home-heading {
     font-size: 35px;
+  }
+  .home-desc {
+    font-size: 33px;
   }
 }
 @media (max-width: 850px) {
@@ -102,6 +108,9 @@
   }
   .home-heading {
     font-size: 50px;
+  }
+  .home-desc {
+    font-size: 48px;
   }
 }
 

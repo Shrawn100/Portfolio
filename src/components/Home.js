@@ -1,6 +1,6 @@
 import "./Home.css";
 import img from "../imgs/istockphoto-947663966-612x612.png";
-import { Link } from "react-router-dom";
+
 import Icon from "@mdi/react";
 import { mdiArrowRightBold } from "@mdi/js";
 export default function Home() {
