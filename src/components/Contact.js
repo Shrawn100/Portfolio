@@ -23,11 +23,6 @@ export default function Contact() {
             <Icon className="contact-icon" path={mdiPhone} size={2} />
             0469293649
           </button>
-          <div>
-            <a href="https://github.com/Shrawn100">
-              <i className="devicon-github-original contact-btn"></i>
-            </a>
-          </div>
         </div>
       </div>
     </div>

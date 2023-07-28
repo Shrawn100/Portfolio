@@ -75,18 +75,11 @@
   display: flex;
   gap: 10px;
 }
-.github {
-  max-width: 50px;
-  color: white;
-}
 
 .contact-icon {
   margin-right: 10px;
 }
-.devicon-linkedin-plain,
-.devicon-github-original {
-  font-size: 40px;
-}
+
 @media (max-width: 850px) {
   .contact-container > div {
     flex-direction: column;

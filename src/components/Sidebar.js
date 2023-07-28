@@ -32,7 +32,7 @@ export default function Sidebar({ handleClick }) {
             Projects
           </a>
           <a
-            href="#contacts-section"
+            href="#contact-section"
             onClick={handleClick}
             className="navbar-btns sidebar-btns"
           >
