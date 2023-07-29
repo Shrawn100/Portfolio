@@ -46,13 +46,14 @@
 }
 
 .get-to-know-btn {
+  font-family: "DM Sans";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
   color: white;
   background-color: rgb(5, 143, 223);
   border-radius: 15px;
   border: 3px solid rgb(5, 143, 223);
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -64,9 +65,12 @@
   color: rgb(5, 143, 223);
   background-color: white;
 }
+.right-arrow-icon {
+  margin-left: 5px;
+}
 .devicon-linkedin-plain,
 .devicon-github-original {
-  font-size: 40px;
+  font-size: 42px;
   color: rgb(5, 143, 223);
 }
 .github-btn-link,

@@ -14,7 +14,11 @@ export default function Home() {
         <div className="home-container-links">
           <a href="#about-section" className="get-to-know-btn">
             Know More
-            <Icon path={mdiArrowRightBold} size={1.1} />
+            <Icon
+              className="right-arrow-icon"
+              path={mdiArrowRightBold}
+              size={1.1}
+            />
           </a>
 
           <a href="https://github.com/Shrawn100" className="github-btn-link">
