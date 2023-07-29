@@ -18,7 +18,13 @@ export default function Home() {
           </a>
 
           <a href="https://github.com/Shrawn100" className="github-btn-link">
-            <i className="devicon-github-original github-btn"></i>
+            <i className="devicon-github-original "></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shrawn-chhetri-a6bb4a280/"
+            className="linkedin-btn-link"
+          >
+            <i class="devicon-linkedin-plain"></i>
           </a>
         </div>
       </div>
