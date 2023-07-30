@@ -6,8 +6,6 @@
 }
 
 .about-heading {
-  margin-top: 50px;
-
   font-family: "MyFont";
   text-align: center;
   border-bottom: 2px solid rgb(5, 143, 223);
@@ -18,7 +16,7 @@
 
 .about-paragraph {
   font-family: "MyFont";
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 100;
   max-width: 900px;
   padding: 20px 30px 60px 30px;

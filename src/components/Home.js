@@ -28,7 +28,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/shrawn-chhetri-a6bb4a280/"
             className="linkedin-btn-link"
           >
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
           </a>
         </div>
       </div>

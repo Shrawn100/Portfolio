@@ -67,9 +67,6 @@
 .contact-btn-container > div > a {
   text-decoration: none;
 }
-.devicon-github-original:hover {
-  cursor: pointer;
-}
 
 .contact-btn-container > div {
   display: flex;

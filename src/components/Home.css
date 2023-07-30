@@ -11,18 +11,22 @@
   min-height: 92vh;
   justify-content: center;
   align-items: center;
+  gap: 80px;
+}
+.home-container-infos {
+  padding-bottom: 100px;
 }
 
 .home-heading {
   text-align: center;
-  font-family: "DM Sans";
-  font-weight: 700;
+  font-family: "MyFont";
+  font-weight: 500;
   font-size: 60px;
   margin-bottom: 0;
 }
 .home-desc {
   text-align: center;
-  font-family: "Carter One";
+  font-family: "MyFont";
   font-weight: 400;
   font-size: 50px;
   margin-top: 0;
@@ -40,21 +44,19 @@
 
 .home-container-links {
   display: flex;
-
-  justify-content: space-around;
+  justify-content: center;
+  gap: 15px;
   align-items: center;
 }
 
 .get-to-know-btn {
-  font-family: "DM Sans";
-  font-weight: bold;
+  font-family: "MyFont";
   font-size: 22px;
   color: white;
   background-color: rgb(5, 143, 223);
-  border-radius: 15px;
   border: 3px solid rgb(5, 143, 223);
+  border-radius: 15px;
   padding: 10px;
-  font-weight: bold;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -86,24 +88,32 @@
 .devicon-github-original:hover {
   border-radius: 1em;
 }
-
-@media (max-width: 1050px) {
-  .home-img {
-    width: 450px;
-    height: auto;
-  }
-
-  .home-heading {
-    font-size: 50px;
-    text-align: center;
+@media (max-width: 1300px) {
+  .home-container {
+    gap: 25px;
   }
 }
-@media (max-width: 920px) {
+@media (max-width: 1050px) {
+  .home-img {
+    width: 460px;
+    height: auto;
+  }
+  .home-container {
+    gap: 0px;
+  }
   .home-heading {
-    font-size: 35px;
+    font-size: 52px;
   }
   .home-desc {
-    font-size: 33px;
+    font-size: 48px;
+  }
+}
+@media (max-width: 900px) {
+  .home-heading {
+    font-size: 50px;
+  }
+  .home-desc {
+    font-size: 46px;
   }
 }
 @media (max-width: 850px) {
@@ -114,18 +124,18 @@
     text-align: center;
     justify-content: flex-start;
   }
+
   .home-img {
     margin: 0;
     padding: 0;
   }
-  .home-container > div {
+  .home-container-infos {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
-
     order: 1;
   }
   .home-heading {
@@ -134,16 +144,42 @@
   .home-desc {
     font-size: 48px;
   }
+  .home-container-links {
+    border: 1px solid red;
+    display: flex;
+    gap: 30px;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .home-container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .home-img {
     width: 350px;
     height: auto;
   }
-  .home-container > div {
-    font-size: 20px;
-    order: 1;
+  .home-heading {
+    font-size: 40px;
+  }
+  .home-desc {
+    font-size: 38px;
+  }
+  .home-container-links {
+    border: 1px solid red;
+    display: flex;
+    gap: 10px;
+  }
+  .get-to-know-btn {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .devicon-linkedin-plain,
+  .devicon-github-original {
+    font-size: 30px;
   }
 }
 
