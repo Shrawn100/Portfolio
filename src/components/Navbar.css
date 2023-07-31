@@ -72,7 +72,7 @@
 .pnav {
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   background-color: rgb(5, 143, 223);

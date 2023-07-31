@@ -2,7 +2,7 @@ import PNavBar from "./ProjectsNavBar";
 import img1 from "../imgs/blog.png";
 import img2 from "../imgs/blog2.png";
 import img3 from "../imgs/blog3.png";
-import "./BlogInfo.css";
+import "./ProjectsInfo.css";
 
 function BlogInfo() {
   return (
@@ -53,7 +53,9 @@ function BlogInfo() {
         </div>
       </div>
       <div className="project-about-paragraph">
-        <h2 className="project-info-subheading">Project OverView</h2>
+        <h2 className="project-info-subheading project-overview">
+          Project OverView
+        </h2>
         <p>
           The BlogApi project, which was part of the Odin Project, involved
           building a blog application from scratch. Throughout the project, I
@@ -89,7 +91,7 @@ function BlogInfo() {
           deletion, and reading.
         </p>
         <h2 className="project-info-subheading">User Experience</h2>
-        <p>
+        <p className="last-paragraph">
           The author's view prioritizes functionality and features a minimalist
           design, emphasizing a straightforward and efficient user experience.
           On the other hand, the user view is tailored to provide a visually

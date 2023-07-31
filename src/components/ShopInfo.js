@@ -2,7 +2,7 @@ import PNavBar from "./ProjectsNavBar";
 import img1 from "../imgs/vintage.png";
 import img2 from "../imgs/vintage2.png";
 import img3 from "../imgs/vintage3.png";
-import "./BlogInfo.css";
+import "./ProjectsInfo.css";
 
 function ShopInfo() {
   return (
@@ -29,7 +29,9 @@ function ShopInfo() {
         </div>
       </div>
       <div className="project-about-paragraph">
-        <h2 className="project-info-subheading">Project OverView</h2>
+        <h2 className="project-info-subheading project-overview">
+          Project OverView
+        </h2>
         <p>
           The Shop Project marked my second encounter with the Express
           framework, this time utilizing the skeleton generator and the Pug
@@ -80,11 +82,7 @@ function ShopInfo() {
           each page change or GET request. As a solution, I removed the storage
           to the database component, and the feature began working as expected.
         </p>
-        <p>
-          Creating the logic for the cart feature itself also presented
-          difficulties. However, after experimentation and fine-tuning, I
-          successfully achieved the desired functionality.
-        </p>
+
         <h2 className="project-info-subheading">Technical Details</h2>
         <p>
           The Shop Project was built using MongoDB, Pug, Express, and CSS. These
@@ -92,7 +90,7 @@ function ShopInfo() {
           interactive views, and seamless server-side operations.
         </p>
         <h2 className="project-info-subheading">Conclusion</h2>
-        <p>
+        <p className="last-paragraph">
           The Shop Project served as an invaluable learning experience,
           solidifying my understanding of Express and Pug while delving into the
           intricacies of working with MongoDB. By tackling challenges such as

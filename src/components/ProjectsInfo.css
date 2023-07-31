@@ -1,48 +1,60 @@
 .project-info-title {
   text-align: center;
   font-family: "MyFont", sans-serif;
+  padding: 15px;
 }
 
 .project-links-container {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
+
   align-items: center;
-  padding: 20px 80px 40px 80px;
+  padding: 20px 80px 20px 80px;
 }
 .project-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  gap: 5px;
   height: 220px;
   border-top: 1px solid rgb(5, 143, 223);
 }
 .project-link > h2 {
   font-family: "MyFont", sans-serif;
-  text-align: center;
 }
 .project-link > a {
   font-family: "MyFont", sans-serif;
   text-align: center;
+  font-size: 16px;
+  width: 100px;
 }
 .project-about-paragraph {
-  border-top: 1px solid rgb(5, 143, 223);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "MyFont";
-  font-size: 19px;
-  font-weight: 100;
+  font-size: 14px;
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 300px 60px 300px;
+  padding: 20px 300px 20px 300px;
+}
+.project-about-paragraph > p {
+  margin-top: 3px;
+}
+.project-overview {
+  border-top: 1px solid rgb(5, 143, 223);
+  width: 100%;
+  padding-top: 25px;
+}
+.last-paragraph {
+  border-bottom: 1px solid rgb(5, 143, 223);
+  padding-bottom: 25px;
+  width: 100%;
 }
 .project-info-subheading {
-  font-size: 25px;
+  font-size: 20px;
   margin: 0;
   align-self: flex-start;
 }
@@ -58,6 +70,8 @@
 .project-img-title {
   text-align: center;
   font-family: "MyFont", sans-serif;
+  padding: 20px;
+  border: 1px solid rgb(5, 143, 223);
 }
 span {
   color: rgb(5, 143, 223);
@@ -79,12 +93,10 @@ span {
     padding: 20px 100px 60px 100px;
   }
   .project-link > h2 {
-    font-family: "MyFont", sans-serif;
     text-align: center;
     font-size: 20px;
   }
   .project-link > a {
-    font-family: "MyFont", sans-serif;
     text-align: center;
     font-size: 16px;
   }
@@ -96,12 +108,7 @@ span {
   }
 
   .project-links-container {
-    box-sizing: border-box;
-    display: flex;
-
-    justify-content: center;
     gap: 5px;
-    align-items: center;
     padding: 20px 20px 60px 20px;
   }
 }

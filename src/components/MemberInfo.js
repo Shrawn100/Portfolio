@@ -2,7 +2,7 @@ import PNavBar from "./ProjectsNavBar";
 import img1 from "../imgs/members.png";
 import img2 from "../imgs/member2.png";
 import img3 from "../imgs/member3.png";
-import "./BlogInfo.css";
+import "./ProjectsInfo.css";
 
 function ShopInfo() {
   return (
@@ -29,7 +29,9 @@ function ShopInfo() {
         </div>
       </div>
       <div className="project-about-paragraph">
-        <h2 className="project-info-subheading">Project OverView</h2>
+        <h2 className="project-info-subheading project-overview">
+          Project OverView
+        </h2>
         <p>
           The Members Only project was primarily developed to gain a
           comprehensive understanding of authorization and verification
@@ -68,7 +70,7 @@ function ShopInfo() {
           operations rather than implementing extensive styling.
         </p>
         <h2 className="project-info-subheading">Summary</h2>
-        <p>
+        <p className="last-paragraph">
           The Members Only project played a vital role in broadening my
           understanding of backend development. By delving into concepts such as
           authorization, dynamic content display, password encryption, and data
