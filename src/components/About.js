@@ -8,7 +8,7 @@ export default function About() {
       </h1>
       <div className="about-paragraph">
         <p>
-          A self-taught developer that strives to always push the boundaries of
+          As a self-taught developer, I strive to always push the boundaries of
           my knowledge.
         </p>
 
@@ -23,7 +23,7 @@ export default function About() {
         <h2 className="skills-tools-heading">
           Skills <span>& Tools</span>
         </h2>
-        <h3 className="skill-stack-title">Front-end</h3>
+        <h3 className="skill-stack-title">- Front-end -</h3>
         <div className="skills-container">
           <div className="skills-img-container">
             <img
@@ -61,7 +61,7 @@ export default function About() {
             TypeScript
           </div>
         </div>
-        <h3 className="skill-stack-title">Back-end</h3>
+        <h3 className="skill-stack-title">- Back-end -</h3>
         <div className="skills-container">
           <div className="skills-img-container">
             <img
@@ -92,7 +92,7 @@ export default function About() {
             Firebase
           </div>
         </div>
-        <h3 className="skill-stack-title">Tools</h3>
+        <h3 className="skill-stack-title">- Tools -</h3>
         <div className="skills-container">
           <div className="skills-img-container">
             <img
