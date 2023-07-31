@@ -169,7 +169,6 @@
     font-size: 38px;
   }
   .home-container-links {
-    border: 1px solid red;
     display: flex;
     gap: 10px;
   }
