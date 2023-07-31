@@ -85,6 +85,13 @@ export default function About() {
           </div>
           <div className="skills-img-container">
             <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
+              alt="Solidity logo"
+            />
+            Solidity
+          </div>
+          <div className="skills-img-container">
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
               alt="firebase logo"
             />
