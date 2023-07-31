@@ -10,7 +10,7 @@
   border: none;
   background-color: rgb(5, 143, 223);
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 .hamburger:hover {
   transform: scale(0.99);
