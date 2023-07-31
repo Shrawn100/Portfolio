@@ -11,10 +11,9 @@ export default function About() {
           As a self-taught developer, I strive to always push the boundaries of
           my knowledge.
         </p>
-
+        <p>Producing high-quality web applications is my passion.</p>
         <p>
-          Producing high-quality web applications is my passion. <br></br>I aim
-          to create applications that make smooth and satisfying user
+          I aim to create applications that make smooth and satisfying user
           experiences.
         </p>
       </div>
