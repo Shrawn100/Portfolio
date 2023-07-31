@@ -6,15 +6,15 @@
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  min-height: 75vh;
+  min-height: 55vh;
+  border: 1px solid red;
 }
 
 .contact-heading {
-  padding-top: 60px;
   font-family: "MyFont", sans-serif;
   text-align: center;
   border-bottom: 2px solid rgb(5, 143, 223);
-  margin-top: 50px;
+  font-size: 32px;
 }
 .contact-heading > span {
   color: rgb(5, 143, 223);
@@ -22,7 +22,6 @@
 .contact-container {
   display: flex;
   box-sizing: border-box;
-
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -31,59 +30,48 @@
   padding: 30px 30px 30px 30px;
 }
 .contact-container > p {
-  padding: 10px 30px 10px 30px;
+  margin: 0;
+  padding: 5px 30px 5px 30px;
   text-align: center;
-  font-size: 28px;
+  font-size: 18px;
   max-width: 900px;
   font-family: "MyFont", sans-serif;
 }
-.contact-container > div {
+.contact-details-container {
   display: flex;
-
   width: 100%;
   justify-content: center;
   gap: 30px;
 }
-.contact-btn {
-  margin-top: 30px;
-  text-align: center;
-
+.contact-details {
   color: black;
-  cursor: pointer;
   font-family: "MyFont", sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   display: flex;
   align-items: center;
-  border: none;
-  font-weight: bold;
+  font-weight: 600;
   background-color: white;
-  max-width: 400px;
-  padding: 15px;
-  justify-content: center;
-}
-.contact-btn:hover {
-  cursor: default;
-}
-.contact-btn-container > div > a {
-  text-decoration: none;
-}
 
-.contact-btn-container > div {
-  display: flex;
-  gap: 10px;
+  padding: 20px;
+  justify-content: center;
 }
 
 .contact-icon {
-  margin-right: 10px;
+  margin-right: 2px;
+  transform: scale(0.8);
+  color: rgb(5, 143, 223);
 }
 
 @media (max-width: 850px) {
-  .contact-container > div {
+  .contact-details-container {
     flex-direction: column;
-
     align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 5px;
   }
-  .contact-container {
-    box-shadow: none;
+  .contact-details {
+    padding: 2px 10px 2px 10px;
+    margin: 0;
   }
 }

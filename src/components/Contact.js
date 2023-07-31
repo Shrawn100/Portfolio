@@ -4,9 +4,9 @@ import { mdiEmail, mdiPhone } from "@mdi/js";
 
 export default function Contact() {
   return (
-    <div id="contact-section" className="contact">
+    <section id="contact-section" className="contact">
       <h1 className="contact-heading">
-        Contact<span>Me</span>
+        Contact <span>Me</span>
       </h1>
       <div className="contact-container">
         <p>
@@ -14,17 +14,17 @@ export default function Contact() {
           beneficial!
         </p>
         <p>You can contact me at:</p>
-        <div className="contact-btn-container">
-          <button className="contact-btn">
+        <div className="contact-details-container">
+          <div className="contact-details">
             <Icon className="contact-icon" path={mdiEmail} size={2} />
             shrawn2002@gmail.com
-          </button>
-          <button className="contact-btn">
+          </div>
+          <div className="contact-details">
             <Icon className="contact-icon" path={mdiPhone} size={2} />
             0469293649
-          </button>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
